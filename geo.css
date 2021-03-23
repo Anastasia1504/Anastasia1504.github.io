@@ -1,0 +1,60 @@
+body
+{
+	background-color: #590800;
+	color: white;
+}
+hr
+{
+	color: white;
+}
+.img
+{
+	display: flex;
+	justify-content: space-around;
+}
+.img img
+{
+	width: 33.4%;
+	margin-top: 5px;
+}
+.buttons
+{
+	background-color: #0b0800;
+	height: 50px;
+	font-size: 25px;
+	display: flex;
+	justify-content: space-around;
+}
+.buttons a
+{
+	text-decoration: none;
+	color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+	width: 25%;
+	text-align: center;
+	height: 50px;
+}
+.buttons a:hover
+{
+	background-color: white;
+	color: black;
+}
+.map
+{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+.list
+{
+	border-width: 5px;
+	border-style: double;
+	font-size: 25px;
+}
+.list li
+{
+	text-align: left;
+	margin-top: 10px;
+}
